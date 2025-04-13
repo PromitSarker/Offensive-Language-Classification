@@ -10,7 +10,7 @@ You can install all the required libraries and dependencies by running:
 pip install -r Requirements.txt
 ```
 
-### Offensive Language Classification using FastText and LSTM
+###1. Offensive Language Classification using FastText and LSTM
 
 This project builds a text classification model to detect toxic comments using FastText embeddings and LSTM. The model is trained to identify toxicity in user comments and can be evaluated on both labeled and unlabeled test data.
 
@@ -100,7 +100,7 @@ Or,
 .
 .
 
-### Offensive Language Classification using Fine-tune BERT
+###2. Offensive Language Classification using Fine-tune BERT
 
 This code is for classifying toxic comments in multilingual text using the BERT (Bidirectional Encoder Representations from Transformers) model. The project uses TensorFlow and Hugging Face's transformers library to fine-tune a pre-trained BERT model on a dataset of toxic comments.
 
