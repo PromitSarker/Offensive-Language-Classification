@@ -1,9 +1,10 @@
-This project co
+This project contains 2 separate model to perform Offensive Language Classification.
 
 **1.  Classification with FastText and LSTM**
+
 **2. Classification using Fine-tune BERT **
 
-You can install all the required libraries and dependency by running:
+You can install all the required libraries and dependencies by running:
 
 ```python
 pip install -r requirements.txt
