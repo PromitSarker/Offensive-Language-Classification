@@ -80,13 +80,13 @@ cd Offensive-Language-Classification
 ```
 Or,
 
-- **Prepare the dataset: **Ensure the datasets are placed in the Dataset/ folder.
+- **Prepare the dataset:** Ensure the datasets are placed in the Dataset/ folder.
 
 - **Run the script:** Execute the main script to train the model:
 
 - **Evaluate performance:** After training, the model will evaluate the test data. If labels are present, it will display the accuracy, classification report, and confusion matrix.
 
-- **Predictions: **If no labels are provided for test data, the model will save predictions in a test_predictions.csv file.
+- **Predictions:** If no labels are provided for test data, the model will save predictions in a test_predictions.csv file.
 
 #### Results
 - The model uses FastText embeddings for multi-language support.
@@ -115,7 +115,7 @@ This code is for classifying toxic comments in multilingual text using the BERT 
 
 - test_labels.csv - Labels for the test data
 
-**Data Preprocessing: **Toxicity labels are computed from multiple columns, and text is tokenized using a pre-trained BERT tokenizer.
+**Data Preprocessing:** Toxicity labels are computed from multiple columns, and text is tokenized using a pre-trained BERT tokenizer.
 
 **Model**
 The model uses BERT for feature extraction, with a custom classification head for binary toxicity prediction.
