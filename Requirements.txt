@@ -1,16 +1,12 @@
-Install pip :
-    For Debian/Ubuntu based System: sudo apt-get install python3-pip
-
-Install Numpy: 
-    pip install numpy
-    pip install seaborn 
-    pip install tensorflow
-    pip install wordcloud 
-    pip install -U scikit-learn
-    pip install langchain
-    pip install sentence-transformers
-    pip install numpy=2.2.4
-    pip install -U nltk
-    pip install sentence-transformers
-    pip install gensim --no-binary :all:
-    !pip install fasttext
+numpy
+seaborn 
+tensorflow
+wordcloud 
+-U scikit-learn
+langchain
+sentence-transformers
+numpy=2.2.4
+-U nltk
+sentence-transformers
+gensim --no-binary :all:
+fasttext
