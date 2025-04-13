@@ -1,4 +1,4 @@
-This project contains 2 separate model to perform Offensive Language Classification.
+This project contains 2 separate models to perform Offensive Language Classification.
 
 **1.  Classification with FastText and LSTM**
 
@@ -7,12 +7,12 @@ This project contains 2 separate model to perform Offensive Language Classificat
 You can install all the required libraries and dependencies by running:
 
 ```python
-pip install -r requirements.txt
+pip install -r Requirements.txt
 ```
 
 ### Offensive Language Classification using FastText and LSTM
 
-This project builds a text classification model to detect toxic comments using FastText embeddings, and LSTM. The model is trained to identify toxicity in user comments and can be evaluated on both labeled and unlabeled test data.
+This project builds a text classification model to detect toxic comments using FastText embeddings and LSTM. The model is trained to identify toxicity in user comments and can be evaluated on both labeled and unlabeled test data.
 
 ## Requirements
 
@@ -27,7 +27,7 @@ This project builds a text classification model to detect toxic comments using F
 - WordCloud
 
 #### Dataset
-**train.csv:** The training dataset containing feedback text and toxicity labels (toxic, abusive, etc.).
+**train.csv:** The training dataset contains feedback text and toxicity labels (toxic, abusive, etc.).
 
 **validation.csv:** A validation dataset for tuning model performance.
 
@@ -56,7 +56,7 @@ This project builds a text classification model to detect toxic comments using F
 
 #### Training:
 
-- Early stopping for avoiding overfitting.
+- Early stopping to avoid overfitting.
 
 - Training with TPU support if available.
 
@@ -102,7 +102,7 @@ Or,
 
 ### Offensive Language Classification using Fine-tune BERT
 
-This code is for classifying toxic comments in multilingual text using the BERT (Bidirectional Encoder Representations from Transformers) model. The project uses TensorFlow and Hugging Face's transformers library for fine-tuning a pre-trained BERT model on a dataset of toxic comments.
+This code is for classifying toxic comments in multilingual text using the BERT (Bidirectional Encoder Representations from Transformers) model. The project uses TensorFlow and Hugging Face's transformers library to fine-tune a pre-trained BERT model on a dataset of toxic comments.
 
 #### Data Preparation
 **Loading Datasets:** The datasets are loaded from CSV files:
